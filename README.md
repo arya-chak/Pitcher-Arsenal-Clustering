@@ -106,3 +106,9 @@ The PCA plot shows clear separation between clusters:
 3. **Sinker-slider specialists are rare** (10%), making them a unique archetype
 4. **Clear separation exists** between pitch-to-contact (sinker) and pitch-to-miss (4-seam) philosophies
 5. **Velocity differences** between clusters are meaningful but moderate (90-94 mph range)
+
+## Data Source
+
+Data obtained from Baseball Savant, MLB's official Statcast database.
+
+Note: This analysis uses April 2024 data as a proof of concept. Cluster memberships may vary with larger datasets or different time periods.

@@ -90,6 +90,7 @@ This resulted in **60 features** per pitcher for clustering analysis.
 ## Visualizations
 
 ### Cluster Separation (PCA)
+![Pitcher Arsenal Clusters](cluster_plot.png)
 The PCA plot shows clear separation between clusters:
 - **PC1 (11% variance)**: Primarily distinguishes power fastball pitchers (right) from sinker-slider specialists (left)
 - **PC2 (10.1% variance)**: Separates balanced arsenals (bottom) from specialized approaches (top)
@@ -97,7 +98,9 @@ The PCA plot shows clear separation between clusters:
 
 ### Model Selection
 - **Elbow Plot**: Shows diminishing returns after k=4
+![Elbow Plot](elbow_plot.png)
 - **Silhouette Analysis**: Peak at k=3, but k=4 provides better interpretability
+![Silhouette Plot](silhouette_plot.png)
 
 ## Key Insights
 

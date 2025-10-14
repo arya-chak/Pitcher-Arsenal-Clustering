@@ -317,3 +317,8 @@ table(clustering_results$cluster_name)
 # Export results to CSV (optional)
 write_csv(clustering_results, "pitcher_clusters.csv")
 print("\nResults saved to 'pitcher_clusters.csv'")
+
+# Save all three plots
+ggsave("cluster_plot.png", plot = cluster_plot, width = 10, height = 8, dpi = 300)
+ggsave("elbow_plot.png", plot = elbow_plot, width = 8, height = 6, dpi = 300)
+ggsave("silhouette_plot.png", plot = sil_plot, width = 8, height = 6, dpi = 300)
